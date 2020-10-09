@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  color: #66BFBF;
+  font-weight:900;
+}
+
+h2 {
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-weight:bold;
+}
+
+.top-div {
+  padding-top: 38px;
+  background-color: #EAF6F6;
+  margin: 0;
+}
+
+.cloud2 {
+  position: absolute;
+  right: 25%;
+  top: 15%;
+}
+
+.title {
+  margin: 10% auto 0;
+  color: #66BFBF;
+  width: 20%;
+  font-family: 'Sacramento';
+  font-size: 3rem;
+}
+
+.subtitle {
+  margin: 0 auto 5%;
+  color: #66BFBF;
+  width: 20%;
+  font-family: 'fantasy', monospace;
+}
+
+.cloud1 {
+  position: absolute;
+  left: 25%;
+  top: 60%;
+}
+
+.middle-container {
+  background-color: #fccbcb;
+}
+
+.profile {
+  line-height: 2;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.mig {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.dottedhr {
+    border: 4px dotted #838383;
+    border-top: 0;
+    width:3%;
+      margin: 50px auto;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.fodbold {
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+  padding-bottom: 200px;
+  border-radius: 50%;
+}
+
+.mindre {
+  font-size: 80%;
+}
+
+.skill-row2 {
+  width: 40%;
+  margin: 100px 50px 100px 300px;
+  text-align: left;
+  line-height: 2;
+}
+
+.gymnastik {
+  width: 35%;
+  position: absolute;
+  right: 5%;
+  top: 235%;
+}
+
+.left,
+.right {
+  width: 20px;
+  height: 20px;
+  transition: .5s;
+  float: left;
+  box-shadow: -2px 2px 0 rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.left {
+  transform: rotate(45deg);
+
+}
+
+.left:hover,
+.right:hover {
+  box-shadow: -2px 2px 0 rgba(255, 255, 255, 1);
+}
+
+.right {
+  transform: rotate(225deg);
+
+}
+
+.dagligdag {
+  width: 40%;
+  float: left;
+  margin-right: 50px;
+  padding-bottom: 100px;
+  line-height: 2;
+}
+
+.efterskolelivet {
+  width: 35%;
+  position: absolute;
+  right: 5%;
+  top: 333%;
+}
+
+.altdetfede {
+  width: 40%;
+  margin: 100px 50px 100px 220px;
+  text-align: left;
+  line-height: 2;
+}
+
+.getintouch {
+  font-size: 50px;
+}
+
+.BUTTON {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FCCBCB;
+   font-family: Verdana;
+   font-size: 15px;
+   font-weight: 600;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #838383;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #11999E 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 50px;
+   margin-top: 30px;
+}
+
+.BUTTON:hover {
+   border: solid #EAF6F6 1px;
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.© {
+  color: #EAF6F6;
+  font-size: 10px;
+  margin-top: 30px;
+}
